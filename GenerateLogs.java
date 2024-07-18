@@ -8,9 +8,7 @@ import java.util.Random;
 public class GenerateLogs {
 
     private static final int NUM_RECORDS = 1_000_000;
-    // Change the file path to your desired location
-    private static final String FILE_PATH = "D:/data/website_logs.csv"; // For Windows
-    // private static final String FILE_PATH = "/home/username/data/website_logs.csv"; // For Linux/Mac
+    private static final String FILE_PATH = "/home/username/data/website_logs.csv";
     private static final String[] IP_ADDRESSES = new String[256];
     private static final String[] PAGE_URLS = {"/home", "/about", "/contact", "/products", "/services", "/blog"};
     private static final String[] USER_AGENTS = {
